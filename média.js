@@ -10,3 +10,6 @@ const nome = form.inNome.value              //obtém o nome
 const nota1 = Number(form.inNota1.value)    //obtém a primeira nota
 const nota2 = Number(form.inNota2.value)    //obtém a segunda nota
 const media = (nota1 + nota2.value)         //média das notas
+XMLHttpRequestUpload.innerText = 'Média das notas ${media.toFixed(2)}'
+
+//cria condicionais
